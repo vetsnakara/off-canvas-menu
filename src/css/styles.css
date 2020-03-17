@@ -35,12 +35,14 @@ h1 {
   left: -14rem;
   width: 14rem;
   background: var(--menuBackgroundColor);
+  transition: transform .3s;
 }
 
 .site-container {
   padding-top: 3rem;
   padding-left: 2.5rem;
   max-width: 33rem;
+  transition: transform .3s;
 }
 
 .offsite-is-open .offsite-container,
